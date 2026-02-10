@@ -1,0 +1,7 @@
+!pip install flask -q
+!pip install -q transformers torch torchaudio safetensors accelerate bitsandbytes
+!pip install gradio -q
+!pip install pocket-tts scipy -q
+!pip install soundfile -q
+!apt-get -qq -y install espeak-ng > /dev/null 2>&1
+!pip install pyngrok > /dev/null 2>&1
